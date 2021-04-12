@@ -1,0 +1,14 @@
+header {
+    height: 5rem;
+    background-color: var(--secondaryPinkColor);
+    padding: 1rem;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+}
+header > h1 {
+    color: var(--darkPinkColor);
+    font-weight: 600;
+    margin-top: 5px;
+    font-size: 24px;
+    background-color: var(--secondaryPinkColor);
+    margin-left: 20px;
+}

@@ -1,0 +1,46 @@
+.create {
+    width: 35%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+form {   
+    margin:20px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+form > input , form > textarea {
+    font-size: 1.1em;
+    margin: 10px;
+    outline: none;
+    padding: 10px;
+    border: none;
+    color: var(--darkGreyColor);
+}
+form > input::placeholder, form > textarea::placeholder {
+    color: var(--lightGreyColor);
+}
+form > input:focus , form > textarea:focus {
+    background-color: var(--lightPinkColor);
+}
+.addBtn {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 2rem;
+    bottom: -.7rem;
+    background-color: var(--darkPinkColor);
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 12px 1px rgba(0,0,0,0.2);
+}

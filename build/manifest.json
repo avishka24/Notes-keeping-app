@@ -1,0 +1,23 @@
+{
+  "short_name": "Notes keeping app",
+  "name": "Notes keeping app",
+  "icons": [
+    {
+      "src": "Icons/manifest-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "Icons/manifest-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+  ,
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color":"#F2D8D8",
+  "background_color": "#fff"
+}
